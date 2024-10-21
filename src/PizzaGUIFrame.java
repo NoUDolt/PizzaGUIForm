@@ -17,6 +17,8 @@ public class PizzaGUIFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
+        crustGroup = new ButtonGroup();
+
         // Crust panel
         JPanel crustPanel = new JPanel();
         crustPanel.setBorder(BorderFactory.createTitledBorder("Select Crust"));
